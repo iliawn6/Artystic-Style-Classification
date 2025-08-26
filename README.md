@@ -17,6 +17,18 @@ The challenge: given an unknown painting, can the model predict **who the painte
 The dataset contains several hundred paintings from multiple world-renowned artists.
 <br><br>
 
+## 📁 Dataset
+
+The dataset contains several hundred paintings from globally renowned artists.  
+Each image is labeled with its corresponding painter, making it suitable for a **multi-class image classification task**.  
+The data is organized into subfolders (one per artist) in a standard format compatible with Keras’ `image_dataset_from_directory`.
+
+You can download the dataset directly using the following command:
+
+```bash
+!gdown 1-0d315aj7Ai8NNqat65XDvaOcHDcHiUD
+!unzip famous_paintings.zip > /dev/null 2>&1
+```
 
 ## 🧠 Model Architecture: ResNet50
 
