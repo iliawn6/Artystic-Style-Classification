@@ -29,6 +29,7 @@ You can download the dataset directly using the following command:
 !gdown 1-0d315aj7Ai8NNqat65XDvaOcHDcHiUD
 !unzip famous_paintings.zip > /dev/null 2>&1
 ```
+<br><br>
 
 ## 🧠 Model Architecture: ResNet50
 
